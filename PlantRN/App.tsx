@@ -1,8 +1,7 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import TabMain from './src/navigation/TabMain'
 import { NavigationContainer } from '@react-navigation/native'
-import HomeStack from './src/navigation/stacks/HomeStack'
+import React from 'react'
+import { StyleSheet } from 'react-native'
+import TabMain from './src/navigation/TabMain'
 
 const App = () => {
   return (
